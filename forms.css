@@ -1,0 +1,61 @@
+* {
+    /* background-color: rgb(242, 244, 247); */
+    /* background-image: url('/home/sachin/tarzan/html/Crocus_Wallpaper_by_Roy_Tanck.jpg'); */
+}
+
+
+
+.top_heading {
+    display : flex;
+    color: darkslategray;
+    border: 5px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: blanchedalmond;
+    font-family: 'Cambria';
+    font-style: italic;
+    
+}
+
+.content_fields {
+    display: flex;
+    font-size: 115%;
+    margin-left: 200;
+    margin-right: 200;
+    flex-direction: row;
+    margin-top: 100;
+    justify-content: space-evenly;
+}
+
+.left_fields {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 200px;
+}
+
+.input_fields {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 200px;
+}
+
+.empty_fields {
+    height: 50px;
+}
+
+.description_field {
+    display: flex;
+    height: 100px;
+    margin-left: 200;
+    margin-right: 200;
+    font-size: 115%;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.submit_button {
+    display: flex;
+    justify-content: center;
+}

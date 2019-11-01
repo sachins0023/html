@@ -1,8 +1,11 @@
-* {
+/* * {
     /* background-color: rgb(242, 244, 247); */
-    /* background-image: url('/home/sachin/tarzan/html/Crocus_Wallpaper_by_Roy_Tanck.jpg'); */
+    /* background-image: url('/home/sachin/tarzan/html/Crocus_Wallpaper_by_Roy_Tanck.jpg');
+} */ 
+body {
+    background-image: url('/home/sachin/tarzan/html/Crocus_Wallpaper_by_Roy_Tanck.jpg');
+    background-size: cover;
 }
-
 
 
 .top_heading {
@@ -30,14 +33,12 @@
 .left_fields {
     display: flex;
     flex-direction: column;
-    background-color: whitesmoke;
     width: 200px;
 }
 
 .input_fields {
     display: flex;
     flex-direction: column;
-    background-color: whitesmoke;
     width: 200px;
 }
 

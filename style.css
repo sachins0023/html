@@ -1,0 +1,116 @@
+.home {
+    font-family: Calibri;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/images/img.jpg');
+    background-size: cover;
+    height: 768px;
+}
+
+.title {
+    display: flex;
+    font-size: 200%;
+    font-style: italic;
+    color: white;
+    border: 2px solid transparent;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    justify-content: center;
+}
+
+.hello {
+    margin: 0;
+}
+
+.intro {
+    margin: 0;
+}
+
+.basic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+
+.image {
+    margin-left: 8%;
+    border: 2px solid transparent;
+}
+
+.image h3 {
+    display: flex;
+    color: white;
+    border: 1px solid transparent;
+    width: 290;
+    justify-content: center;
+    font-style: italic;
+}
+
+.image img {
+    border: 2px solid grey;
+    border-radius: 50px;
+    alt: 'profile_image';
+    width: 290;
+    height: 300;
+}
+
+.logos {
+    display: flex;
+    width: 500px;
+    height: 40px;
+    border: 2px solid transparent;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.logos svg {
+    width: 40px;
+    height: 40px;
+    fill: #fff;
+    transition: 0.5s ease;
+}
+
+.logos svg:hover {
+    background-color: white;
+    fill: black;
+}
+
+.know_more {
+    font-style: normal;
+    display: flex;
+    color: white;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 8%;
+    margin-top: 0%;
+    border: 1px solid transparent;
+    width: 290;
+}
+
+.know_more h2 {
+    font-family: 'Times New Roman';
+}
+
+.know_more h3 {
+    margin: 8%;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    transition: 0.8s ease;
+}
+
+.know_more h3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.know_more h3:hover {
+    background-color: white;
+    color: rgb(8, 6, 12);
+}
+
+.active {
+    background-color: rgb(202, 200, 200);
+    color: rgba(8, 6, 12, 0.89);
+}

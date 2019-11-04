@@ -1,8 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .home {
     font-family: Calibri;
+    padding: 0px 50px;
+    margin: 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/images/img.jpg');
     background-size: cover;
-    height: 768px;
+    height: 1000px;
 }
 
 .title {
@@ -11,7 +18,6 @@
     font-style: italic;
     color: white;
     border: 2px solid transparent;
-    margin-top: 50px;
     flex-direction: column;
     align-items: center;
     height: 40%;
@@ -113,4 +119,28 @@
 .active {
     background-color: rgb(202, 200, 200);
     color: rgba(8, 6, 12, 0.89);
+}
+
+.about_me {
+    background-color: black;
+    padding: 50px 0px;
+    height: 1000px;
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.header h3 {
+    border: 2px solid white;
+    padding: 10px 10px;
+    border-color: white;
+}
+
+.header h3 a {
+    text-decoration: none;
+    color: white;
 }

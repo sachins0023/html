@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-right: 61px;
+    padding-bottom: 64px;
+    padding-top: 31px;
+    padding-left: 64px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+}
+
+.top-left {
+    display: flex;
+    flex-direction: row;
+    width: 50%
+}
+
+.logo_image {
+    border: 8px solid #ffcc4b;
+    border-radius: 45px;
+    height: 70px;
+    width: 70px;
+}
+
+.logo_text {
+    font-weight: 800;
+    display: flex;
+    font-size: 28.5px;
+    padding-left: 24px;
+    padding-top: 9.8px;
+    flex-direction: column;
+    letter-spacing: -0.5px;
+    line-height: 28px;
+    color: #838a9b;
+}
+
+.top-right {
+    display: flex;
+    height: 70px;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%
+}
+
+.menu {
+    margin-top: 29px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-weight: 700;
+    width: 100%;
+}
+
+.menu div {
+    display: flex;
+    color: #777d8b;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    height: 18px;
+    justify-content: space-between;
+}
+
+.hamburger div {
+    display: flex;
+    background-color: #cdd2e1;
+    border-radius: 2px;
+    height: 4px;
+    width: 21px;
+}
+
+.bottom {
+    display: flex;
+    margin-top: 58px;
+    flex-direction: row;
+}
+
+.bottom-left {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 677px;
+    flex-direction: column;
+}
+
+.topic {
+    font-weight: 800;
+    width: 444px;
+    top: 279px;
+    line-height: 64px;
+    font-size: 72.4px;
+    letter-spacing: -0.05px;
+    color: #535c64;
+    flex-wrap: nowrap;
+}
+
+.line2 {
+    width: 373px;
+    letter-spacing: 1.02px;
+}
+
+.content {
+    margin-top: 39.6px;
+    line-height: 20.4px;
+}
+
+.content div {
+    font-size: 13.2px;
+    font-weight: 500;
+    color: #686d79;
+}
+
+.read_more {
+    margin-top: 42px;
+    width: 172px;
+    height: 44px;
+    background-color: #d7e3f8;
+    border-radius: 22px;
+}
+
+.button {
+    font-weight: 800;
+    padding-left: 38.4px;
+    padding-top: 11.4px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: #bdcce0;
+}
+
+.follow {
+    display: flex;
+    margin-top: 57.4px;
+    flex-direction: row;
+}
+
+.text {
+    font-size: 13.2px;
+    color: #d6dbe7;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+}
+
+.logo {
+    display: flex;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.facebook {
+    width: 15px;
+    height: 21 px;
+}
+
+.tumblur {
+    margin-left: 23px;
+    width: 14px;
+    height: 21 px;
+}
+
+.instagram {
+    margin-left: 19px;
+    width: 21px;
+    height: 21 px;
+}
+
+.bottom-right {
+    width: 678px;
+    height: 677px;
+}

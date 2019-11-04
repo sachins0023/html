@@ -54,7 +54,7 @@ body {
     margin-top: 29px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-weight: 700;
     width: 100%;
 }
@@ -175,6 +175,12 @@ body {
 }
 
 .bottom-right {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.bottom-right img {
     width: 678px;
     height: 677px;
 }

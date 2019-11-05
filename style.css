@@ -20,7 +20,7 @@ body {
 .top-left {
     display: flex;
     flex-direction: row;
-    width: 50%
+    width: 50%;
 }
 
 .logo_image {
@@ -95,8 +95,6 @@ body {
 
 .topic {
     font-weight: 800;
-    width: 444px;
-    top: 279px;
     line-height: 64px;
     font-size: 72.4px;
     letter-spacing: -0.05px;
@@ -180,7 +178,10 @@ body {
     justify-content: flex-end;
 }
 
-.bottom-right img {
+.bottom-right div {
     width: 678px;
     height: 677px;
+    background-image: url('group-2-3-x.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }

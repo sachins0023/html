@@ -256,9 +256,14 @@
     flex-direction: column;
 }
 
-.apartments {
+.body-content {
+    display: flex;
+    flex-direction: column;
     margin-left: 135px;
     margin-right: 135px;
+}
+
+.apartments {
     margin-top: 60px;
     display: flex;
     flex-direction: column;
@@ -383,8 +388,6 @@
 .footer {
     margin-top: 120px;
     margin-bottom: 120px;
-    margin-left: 135px;
-    margin-right: 135px;
     border: 1px solid #d9dde7;
     background-color: white;
     display: flex;
